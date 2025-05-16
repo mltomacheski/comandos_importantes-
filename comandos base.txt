@@ -20,3 +20,15 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/mltomacheski/estrela.git
 git push -u origin main
+
+
+CLASSES
+
+atributos 
+construtor padrao 
+construtor uso 
+get e set 
+métodos toString 
+método equal 
+método hashCode
+TUDO EDENTADO 
