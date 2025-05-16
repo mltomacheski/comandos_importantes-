@@ -11,6 +11,8 @@ mvn archetype:generate -DgroupId=com.ejcar -DartifactId=oficina -DarchetypeArtif
 
 mvn compile *para compilar devemos estar dentro da pasta*
 mvn clean *limpar a pasta do projeto compilado a TARGET*
+===================================================================================================================================
+
 
 *comandos do commit *
 echo "# estrela" >> README.md
@@ -20,6 +22,8 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/mltomacheski/estrela.git
 git push -u origin main
+
+===================================================================================================================================
 
 
 CLASSES
