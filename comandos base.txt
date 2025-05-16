@@ -9,7 +9,8 @@ mvn archetype:generate -DgroupId=com.ejcar -DartifactId=oficina -DarchetypeArtif
 *o id do meu projeto*
 -DartifactId=oficina
 
-mvn compile
+mvn compile *para compilar devemos estar dentro da pasta*
+mvn clean *limpar a pasta do projeto compilado a TARGET*
 
 *comandos do commit *
 echo "# estrela" >> README.md
