@@ -1,0 +1,21 @@
+*Para criar o maven (Servidor)*
+E qual o tipo que eu quero utilizar
+
+mvn archetype:generate -DgroupId=com.ejcar -DartifactId=oficina -DarchetypeArtifactId=maven-archetype-quickstart
+
+*Adicionar o id do grupo da aplicação*
+-DgroupId=com.ejcar
+
+*o id do meu projeto*
+-DartifactId=oficina
+
+mvn compile
+
+*comandos do commit *
+echo "# estrela" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mltomacheski/estrela.git
+git push -u origin main
